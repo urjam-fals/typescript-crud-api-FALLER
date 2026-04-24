@@ -1,0 +1,24 @@
+$kind: http-request
+name: CREATE NEW USER
+url: http://localhost:4000/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Mrs\",\r
+
+    \  \"firstName\": \"Jane\",\r
+
+    \  \"lastName\": \"Smith\",\r
+
+    \  \"email\": \"jane@example.com\",\r
+
+    \  \"password\": \"secret123\",\r
+
+    \  \"confirmPassword\": \"secret123\",\r
+
+    \  \"role\": \"User\"\r
+
+    }"
+order: 1776996123803

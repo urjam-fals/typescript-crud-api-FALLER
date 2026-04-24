@@ -1,7 +1,5 @@
-import { alternatives } from "joi";
-import { truncate } from "node:fs";
-import { DataType, Optional, Model, DataTypes } from "sequelize";
-import type { Sequelize } from "sequelize";
+import { Optional, Model, DataTypes } from 'sequelize';
+import type { Sequelize } from 'sequelize';
 
 export interface UserAttributes {
     id: number;
@@ -100,7 +98,7 @@ export default function (sequelize: Sequelize): typeof User {
         },
       },
     }
-  )
+  );
   return User;
 }
   

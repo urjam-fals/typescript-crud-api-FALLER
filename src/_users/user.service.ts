@@ -57,6 +57,5 @@ async function getUser(id:number): Promise<User>{
     if(!user){
         throw new Error('User not found');
     }
-
     return user;
 }

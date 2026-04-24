@@ -1,0 +1,5 @@
+$kind: http-request
+name: USER BY ID
+url: http://localhost:4000/users/999
+method: GET
+order: 4326091207640408
